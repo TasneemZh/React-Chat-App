@@ -8,7 +8,7 @@ Use your CLI and
 
     - clone the project
 
-        `git clone ...`
+        `git clone git remote add origin https://github.com/TasneemZh/React-Chat-App.git`
 
     - install the NPM packages on the frontend and backend
 

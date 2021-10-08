@@ -12,7 +12,7 @@ Use your CLI and
 
     - install the NPM packages on the frontend and backend
 
-        `cd react-chat-app\frontend`
+        `cd React-Chat-App\frontend`
         
         `npm i && npm i -D`
 

@@ -13,7 +13,7 @@ const resolvers = {
       const chat = { id: chats.length + 1, from, message };
 
       chats.push(chat);
-      pubsub.publish('CHAT_CHANNEL', { messageSent: chat });
+      pubsub.publish(CHAT_CHANNEL, { messageSent: chat });
 
       return chat;
     },
